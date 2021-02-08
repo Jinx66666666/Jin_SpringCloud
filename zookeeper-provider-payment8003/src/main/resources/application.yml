@@ -9,4 +9,4 @@ spring:
     name: zookeeper-provider-payment
   cloud:
     zookeeper:
-      connect-string: 192.168.2.93:2181
+      connect-string: 127.0.0.1:2181  #本地安装zookeeper测试，远程使用 IP + 端口号

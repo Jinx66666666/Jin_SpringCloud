@@ -20,7 +20,7 @@ import java.util.List;
  */
 @RestController
 @Slf4j
-public class PanmentController {
+public class PaymentController {
 
     @Resource
     private PaymentService paymentService;
