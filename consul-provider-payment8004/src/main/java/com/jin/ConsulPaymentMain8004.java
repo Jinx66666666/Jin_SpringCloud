@@ -6,14 +6,14 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 /**
  * @author: Jin
- * @Date: 2021/2/6 16:20
+ * @Date: 2021/02/08 22:52
  * @Description:
  * @version: V1.0
  */
 @SpringBootApplication
 @EnableDiscoveryClient
-public class PaymentMain8003 {
+public class ConsulPaymentMain8004 {
     public static void main(String[] args) {
-        SpringApplication.run(PaymentMain8003.class,args);
+        SpringApplication.run(ConsulPaymentMain8004.class, args);
     }
 }
