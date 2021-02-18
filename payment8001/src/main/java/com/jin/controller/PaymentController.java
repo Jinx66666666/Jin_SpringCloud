@@ -30,7 +30,7 @@ public class PaymentController {
     private DiscoveryClient discoveryClient;
 
     @PostMapping("/payment/save")
-    public CommonResult save(@RequestBody Payment payment) {
+    public CommonResult save(Payment payment) {
         int result = paymentService.save(payment);
         log.info("--------插入成功-------" + result);
 
