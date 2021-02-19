@@ -19,6 +19,7 @@
         <module>zookeeper-consumer-order80</module>
         <module>consul-provider-payment8004</module>
         <module>consul-consumer-order80</module>
+        <module>feign-consumer-order80</module>
     </modules>
 
     <name>jin-springcloud</name>
