@@ -6,15 +6,16 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 /**
  * @author: Jin
- * @Date: 2021/2/2 9:59
- * @Description: 启动类
+ * @Date: 2021/2/4 10:06
+ * @Description:
  * @version: V1.0
  */
 @SpringBootApplication
 @EnableEurekaClient
-public class PaymentMain8002 {
-
+//@RibbonClient(name = "PAYMENT-SERVICE", configuration = MySelfRule.class)//使用随机负载均衡
+public class EurekaConsumerMain80 {
     public static void main(String[] args) {
-        SpringApplication.run(PaymentMain8002.class, args);
+        SpringApplication.run(EurekaConsumerMain80.class, args);
     }
+
 }

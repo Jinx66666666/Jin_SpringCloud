@@ -25,7 +25,7 @@ public class PaymentController {
     @Resource
     private PaymentService paymentService;
     @Value("${server.port}")
-    private String serverport;
+    private String serverPort;
     @Resource
     private DiscoveryClient discoveryClient;
 
@@ -35,9 +35,9 @@ public class PaymentController {
         log.info("--------插入成功-------" + result);
 
         if (result > 0) {
-            return new CommonResult(200, "插入数据成功,服务器为:" + serverport, result);
+            return new CommonResult(200, "插入数据成功,服务器为:" + serverPort, result);
         } else {
-            return new CommonResult(500, "插入数据失败,服务器为:" + serverport, result);
+            return new CommonResult(500, "插入数据失败,服务器为:" + serverPort, result);
         }
     }
 
@@ -48,9 +48,9 @@ public class PaymentController {
         log.info("--------查询成功-------" + payment);
 
         if (payment != null) {
-            return new CommonResult(200, "查询数据成功,服务器为:" + serverport, payment);
+            return new CommonResult(200, "查询数据成功,服务器为:" + serverPort, payment);
         } else {
-            return new CommonResult(500, "查询数据失败,参数id为" + id + ",服务器为:" + serverport, null);
+            return new CommonResult(500, "查询数据失败,参数id为" + id + ",服务器为:" + serverPort, null);
         }
     }
 
@@ -65,5 +65,10 @@ public class PaymentController {
             log.info("===地址信息:" + instance.getServiceId() + "\t" + instance.getHost() + "\t" + instance.getPort() + "\t" + instance.getUri());
         }
         return this.discoveryClient;
+    }
+
+    @GetMapping(value = "/payment/lb")
+    public String getPaymentLB() {
+        return serverPort;
     }
 }
