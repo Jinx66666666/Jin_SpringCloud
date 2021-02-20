@@ -49,7 +49,7 @@ public class PaymentController {
         }
     }
 
-    @GetMapping(value = "/payment/lb")
+    @GetMapping(value = "/payment/getPort")
     public String getPaymentLB() {
         return serverPort;
     }
