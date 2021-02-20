@@ -20,6 +20,7 @@
         <module>consul-provider-payment8004</module>
         <module>consul-consumer-order80</module>
         <module>feign-consumer-order80</module>
+        <module>hystrix-provider-payment8005</module>
     </modules>
 
     <name>jin-springcloud</name>
