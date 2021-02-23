@@ -23,6 +23,7 @@
         <module>hystrix-provider-payment8005</module>
         <module>hystrix-consumer-feign-order80</module>
         <module>hystrix-dashboard9001</module>
+        <module>gateway9527</module>
     </modules>
 
     <name>jin-springcloud</name>
