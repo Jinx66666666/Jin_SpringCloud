@@ -24,6 +24,7 @@
         <module>hystrix-consumer-feign-order80</module>
         <module>hystrix-dashboard9001</module>
         <module>gateway9527</module>
+        <module>config-center3344</module>
     </modules>
 
     <name>jin-springcloud</name>
