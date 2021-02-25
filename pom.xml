@@ -29,6 +29,7 @@
         <module>config-client-3366</module>
         <module>stream-rabbitmq-provider-8801</module>
         <module>stream-rabbitmq-consumer-8802</module>
+        <module>stream-rabbitmq-consumer-8803</module>
     </modules>
 
     <name>jin-springcloud</name>
