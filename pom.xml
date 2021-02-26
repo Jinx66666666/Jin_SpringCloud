@@ -31,6 +31,7 @@
         <module>stream-rabbitmq-consumer-8802</module>
         <module>stream-rabbitmq-consumer-8803</module>
         <module>nacos-provider-payment-9001</module>
+        <module>nacos-provider-payment-9002</module>
     </modules>
 
     <name>jin-springcloud</name>
