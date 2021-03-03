@@ -35,6 +35,9 @@
         <module>nacos-consumer-order-83</module>
         <module>nacos-config-client-3377</module>
         <module>sentinel-service-8401</module>
+        <module>sentinel-provider-payment-9003</module>
+        <module>sentinel-provider-payment-9004</module>
+        <module>sentinel-consumer-order-84</module>
     </modules>
 
     <name>jin-springcloud</name>
