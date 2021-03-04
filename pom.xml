@@ -38,6 +38,9 @@
         <module>sentinel-provider-payment-9003</module>
         <module>sentinel-provider-payment-9004</module>
         <module>sentinel-consumer-order-84</module>
+        <module>seata-order-service-2001</module>
+        <module>seata-storage-service-2002</module>
+        <module>seata-account-service-2003</module>
     </modules>
 
     <name>jin-springcloud</name>
